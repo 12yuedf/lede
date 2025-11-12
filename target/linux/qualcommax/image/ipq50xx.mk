@@ -26,7 +26,7 @@ TARGET_DEVICES += glinet_gl-b3000
 define Device/cmcc_rax3000q
   $(call Device/FitImage)
   $(call Device/UbiFit)
-  SOC := ipq5018
+  SOC := ipq5000
   DEVICE_VENDOR := CMCC
   DEVICE_MODEL := RAX3000Q
   BLOCKSIZE := 128k
