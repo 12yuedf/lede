@@ -57,7 +57,7 @@
 	};
 
 	reserved-memory {
-		tz_appps@4a400000 {
+		tz_apps@4a400000 {
 			no-map;
 			reg = <0x0 0x4a400000 0x0 0x400000>;
 		};
