@@ -335,7 +335,7 @@
             compatible = "qcom,smem-part";
         };
     };
-
+}; 
 &switch {
 	switch_mac_mode = <MAC_MODE_SGMII_CHANNEL0>;
 	status = "okay";
